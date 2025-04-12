@@ -1,0 +1,4011 @@
+{
+  "id": "5a3cfee3-2e71-4b58-a9b1-f83934449dac",
+  "version": "2.0",
+  "name": "Final Project",
+  "url": "https://divineshop.vn/",
+  "tests": [{
+    "id": "34952315-de08-4b46-a254-262121402400",
+    "name": "TC-02",
+    "commands": [{
+      "id": "41042f6c-814d-4e9a-85a9-5a1a29069bd2",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8bbf633b-c350-4cea-a110-a3bfe215e64b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d5b8633-fa8a-436c-9544-f8dda300055a",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=//*[@id=\"gatsby-focus-wrapper\"]/div/div[2]/div/div[1]",
+      "targets": [],
+      "value": "x"
+    }, {
+      "id": "8d5f1762-b435-4ac5-ad6c-d9f4ac75d2e5",
+      "comment": "",
+      "command": "echo",
+      "target": "${x}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e489d20c-46d7-47f9-a263-d89a29a495bd",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "i"
+    }, {
+      "id": "7f3282d6-61cf-4149-b6dd-6f61efd18e75",
+      "comment": "",
+      "command": "while",
+      "target": "${i}<=${x}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd2754a2-2c77-4c4c-8f56-4d4875509589",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.g", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0580d3d2-3f50-498e-b518-f2d71402e669",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.g", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Steam Wallet Code"
+    }, {
+      "id": "be2e3f41-583b-4be8-8556-3b5fd0ccf053",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Zc > .rd",
+      "targets": [
+        ["css=.Zc > .rd", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "089c87d7-9cf5-4fbf-835b-8f7bf1f567a9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Steam Wallet Code 40 HKD (~131.600 VNĐ)",
+      "targets": [
+        ["linkText=Steam Wallet Code 40 HKD (~131.600 VNĐ)", "linkText"],
+        ["css=.gf:nth-child(1) > .Ta", "css:finder"],
+        ["xpath=//a[contains(text(),'Steam Wallet Code 40 HKD (~131.600 VNĐ)')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/steam-wallet-code-40-hkd')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Steam Wallet Code 40 HKD (~131.600 VNĐ)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "260d3c2f-5c79-4225-a66d-0449b311e08b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Wb > .d",
+      "targets": [
+        ["css=.Wb > .d", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div[2]/div/div[2]/div/form/fieldset/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm vào giỏ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "067f8ce5-8d25-41ce-bb1b-5f3aa8ee3b2f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Divine Shop",
+      "targets": [
+        ["linkText=Divine Shop", "linkText"],
+        ["css=.Vg:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[5]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Divine Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd35ff31-8a7e-44b5-afd4-a896fa9a4f8d",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${i} +1",
+      "targets": [],
+      "value": "i"
+    }, {
+      "id": "876f8fe4-d7f6-4f51-8612-f25db6f5be94",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26c5217e-c881-406c-8e95-38b988084ea5",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.Nd",
+      "targets": [],
+      "value": "count"
+    }, {
+      "id": "ea00a223-50cf-45b8-bc17-c12b9a735518",
+      "comment": "",
+      "command": "echo",
+      "target": "count=${count}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e769895-5ed8-4bd7-a6e8-780ed2e904a3",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return parseFloat(${count}.substring(1, ${count}.length-1))",
+      "targets": [],
+      "value": "count"
+    }, {
+      "id": "e2fc1ce9-36e3-43b7-8c74-9929d7fd94c2",
+      "comment": "",
+      "command": "echo",
+      "target": "${count}",
+      "targets": [],
+      "value": "${x}"
+    }, {
+      "id": "760db0fc-855f-43a2-b6ad-ff5aaf02489e",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${count} == ${x}",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "aba272db-6500-44a4-b8c4-670fb5d269b0",
+      "comment": "",
+      "command": "verify",
+      "target": "result",
+      "targets": [],
+      "value": "true"
+    }, {
+      "id": "4c27a906-a09e-45eb-9738-a9733aeb1469",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9111ad43-38ca-4031-98b6-6e4e72a45510",
+    "name": "TC-05",
+    "commands": [{
+      "id": "456e1859-6ed8-429b-8cac-c91dd22ff81b",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ccb45d6f-4df7-4759-b7f7-a6d8aa75c4a5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "880x546",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab521e19-60de-44be-9152-c7f284bfd19d",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return\"apple\"",
+      "targets": [],
+      "value": "search"
+    }, {
+      "id": "cb9b9398-bc74-4978-b8a6-2d17c66a705e",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.g", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f50a86d0-fb79-464e-b126-640966875006",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.g", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "apple"
+    }, {
+      "id": "74d57811-db4d-4c8c-8bad-4c3c9994e63f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.g", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e771e499-69aa-40d6-91bb-cf9837c694fe",
+      "comment": "",
+      "command": "storeText",
+      "target": "linkText=Newton and the Apple Tree",
+      "targets": [
+        ["linkText=Newton and the Apple Tree", "linkText"],
+        ["css=.gf:nth-child(1) > .Ta", "css:finder"],
+        ["xpath=//a[contains(text(),'Newton and the Apple Tree')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/newton-and-the-apple-tree')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Newton and the Apple Tree')]", "xpath:innerText"]
+      ],
+      "value": "item1"
+    }, {
+      "id": "c5d965d7-422c-4640-b53d-c3500cd06b26",
+      "comment": "",
+      "command": "storeText",
+      "target": "linkText=Groove Coaster - Bad Apple!! feat. nomico",
+      "targets": [
+        ["linkText=Groove Coaster - Bad Apple!! feat. nomico", "linkText"],
+        ["css=.gf:nth-child(2) > .Ta", "css:finder"],
+        ["xpath=//a[contains(text(),'Groove Coaster - Bad Apple!! feat. nomico')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/groove-coaster---bad-apple-feat-nomico')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Groove Coaster - Bad Apple!! feat. nomico')]", "xpath:innerText"]
+      ],
+      "value": "item2"
+    }, {
+      "id": "f42ba160-f092-45a5-8487-116ee5ca7870",
+      "comment": "",
+      "command": "echo",
+      "target": "${item1}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f663f25-5755-4260-abde-6d9e8ce4faed",
+      "comment": "",
+      "command": "echo",
+      "target": "${item2}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5e53c03-d19c-4294-9a02-66edd620c338",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${item1}.toUpperCase().includes(${search}.toUpperCase())",
+      "targets": [],
+      "value": "check1"
+    }, {
+      "id": "d4431a9a-e6a8-4d1f-922d-fbfcf54d1fb0",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${item2}.toUpperCase().includes(${search}.toUpperCase())",
+      "targets": [],
+      "value": "check2"
+    }, {
+      "id": "5920848c-687f-48c5-8bd0-bcc6de9069d3",
+      "comment": "",
+      "command": "echo",
+      "target": "${check1}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af076925-f465-43d0-b9ca-bfead04914a7",
+      "comment": "",
+      "command": "echo",
+      "target": "${check2}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b2cffa5-8d53-4d17-8e1f-5a72040fa434",
+      "comment": "",
+      "command": "verify",
+      "target": "check1",
+      "targets": [],
+      "value": "true"
+    }, {
+      "id": "9e82f037-3203-4326-8318-9c5281d0c474",
+      "comment": "",
+      "command": "verify",
+      "target": "check2",
+      "targets": [],
+      "value": "true"
+    }, {
+      "id": "84c17418-314e-47f6-85ce-99c8eed74634",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "51ab8ec7-b5cb-4901-9985-9b790c718afc",
+    "name": "TC-01",
+    "commands": [{
+      "id": "bfdbdf85-d63e-4f22-9cdc-df4fa9658c65",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "902a174f-c77d-40a7-8b57-a64db0312ef4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "880x546",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f14bbc1c-7241-47e8-9555-d4171ab4aa11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Gd:nth-child(3)",
+      "targets": [
+        ["css=.Gd:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[3]/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f1d0cfa-be4d-4174-9812-f153d216f1ca",
+      "comment": "",
+      "command": "type",
+      "target": "name=fullname",
+      "targets": [
+        ["name=fullname", "name"],
+        ["css=.i", "css:finder"],
+        ["xpath=//input[@name='fullname']", "xpath:attributes"],
+        ["xpath=//div[@id='__popup']/div/div/div/div/div/form/fieldset/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Nguyễn Công Dư"
+    }, {
+      "id": "8a2b26fa-b10d-4c4d-bfb3-dc8ab99005be",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=div:nth-child(4) .g", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='__popup']/div/div/div/div/div/form/fieldset/div/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "ddddadffaffddd@gmail.com"
+    }, {
+      "id": "aca36f01-8d2d-4aff-8f55-9b0861ea766a",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=div:nth-child(5) .g", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='__popup']/div/div/div/div/div/form/fieldset/div/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "ewqewqss"
+    }, {
+      "id": "4e7bf517-78fa-48f0-b874-46b8801fb08c",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=div:nth-child(6) .g", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__popup']/div/div/div/div/div/form/fieldset/div/div/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "divineshop2003"
+    }, {
+      "id": "d7dee132-1c81-4b59-bca1-7ee103caa2e7",
+      "comment": "",
+      "command": "type",
+      "target": "name=re_password",
+      "targets": [
+        ["name=re_password", "name"],
+        ["css=div:nth-child(7) .g", "css:finder"],
+        ["xpath=//input[@name='re_password']", "xpath:attributes"],
+        ["xpath=//div[@id='__popup']/div/div/div/div/div/form/fieldset/div/div/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": "divineshop2003"
+    }, {
+      "id": "ec9aa499-629b-4957-a200-cbfac1dcf8f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b:nth-child(11)",
+      "targets": [
+        ["css=.b:nth-child(11)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='__popup']/div/div/div/div/div/form/fieldset/div/div/button", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Tạo tài khoản')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f50a559-6321-4f46-ad89-4a2ce5bd209b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Qb > .tc",
+      "targets": [
+        ["css=.Qb > .tc", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[3]/div/div/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b8c3548-ce3a-48a1-93e0-3b37f4f25dda",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quản lý tài khoản",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b3c0a67-5677-46dc-af26-badd09236fdd",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.if:nth-child(2) > .Wa",
+      "targets": [],
+      "value": "ddddadffaffddd@gmail.com"
+    }, {
+      "id": "7de6ad9d-9bea-40c1-aecd-fe87bae1c71f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.if:nth-child(1) > .Wa",
+      "targets": [],
+      "value": "ewqewqss"
+    }, {
+      "id": "79d279a4-1f88-4e96-9912-8f9e6cb09952",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3dacbfe6-59bf-4bdb-b12e-83eab3dd65a3",
+    "name": "TC-06",
+    "commands": [{
+      "id": "ea37c375-8697-4568-9cf8-a607e4151515",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4bd85f7-6d69-4b13-a67d-36d532cc74fc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "880x546",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c99e51a-3ef1-422b-9c13-a1eb30c2c6d8",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.g", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "black myth wukong"
+    }, {
+      "id": "b56d3eba-8232-4cc4-a1fa-3fbc101a9257",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Zc path",
+      "targets": [
+        ["css=.Zc path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d44ceade-1edc-4323-84f2-b3a5e73d4320",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.gf:nth-child(1) .Yb > .be:nth-child(1)",
+      "targets": [
+        ["css=.gf:nth-child(1) .Yb > .be:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "listPrice"
+    }, {
+      "id": "eac2833c-749c-4e76-9e4a-6d984aaab050",
+      "comment": "",
+      "command": "echo",
+      "target": "${listPrice}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9131e3b-10db-4b10-ad5b-457d51c15a96",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Black Myth: Wukong - Tài khoản Steam Mới",
+      "targets": [
+        ["linkText=Black Myth: Wukong - Tài khoản Steam Mới", "linkText"],
+        ["css=.gf:nth-child(1) > .Ta", "css:finder"],
+        ["xpath=//a[contains(text(),'Black Myth: Wukong - Tài khoản Steam Mới')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/tai-khoan-steam-black-myth-wukong-gia-re')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Black Myth: Wukong - Tài khoản Steam Mới')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f87f9bb-72ec-4148-85dd-4cb318e62020",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.va > h4",
+      "targets": [
+        ["css=.va > h4", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div[2]/div/div/div/div/div[3]/h4", "xpath:idRelative"],
+        ["xpath=//div[3]/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'1.090.000đ')]", "xpath:innerText"]
+      ],
+      "value": "detailPrice"
+    }, {
+      "id": "f4579267-9364-4380-aa24-a4fcb00df648",
+      "comment": "",
+      "command": "echo",
+      "target": "${detailPrice}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b629f19-6c33-487f-b535-2e8ca0f6f36e",
+      "comment": "",
+      "command": "verify",
+      "target": "listPrice",
+      "targets": [],
+      "value": "${detailPrice}"
+    }, {
+      "id": "069ba713-e125-4313-83bf-ec781b5f2224",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "08c4b474-d039-4c94-a4fe-dd70ad99c149",
+    "name": "TC-04",
+    "commands": [{
+      "id": "e3a34ef4-da1c-4a24-a986-feff772fdbe7",
+      "comment": "",
+      "command": "store",
+      "target": "2",
+      "targets": [],
+      "value": "qty"
+    }, {
+      "id": "64fbf76a-6322-446f-876c-bb3aecfc012f",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa5fd440-1e85-4413-8de3-3b319ba9fb1e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "880x546",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9922265-5fe6-4b73-9859-0152d1a8ede1",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.g", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "black myth wukong"
+    }, {
+      "id": "cf411277-0fcd-4dc2-93f6-c302f2b7316b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Zc > .rd",
+      "targets": [
+        ["css=.Zc > .rd", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ac20dcb-6480-44bc-840e-523d4afddd8d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Black Myth: Wukong - Tài khoản Steam Mới",
+      "targets": [
+        ["linkText=Black Myth: Wukong - Tài khoản Steam Mới", "linkText"],
+        ["css=.gf:nth-child(1) > .Ta", "css:finder"],
+        ["xpath=//a[contains(text(),'Black Myth: Wukong - Tài khoản Steam Mới')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/tai-khoan-steam-black-myth-wukong-gia-re')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Black Myth: Wukong - Tài khoản Steam Mới')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37c0302c-7914-4c70-b3b5-e73b306fbe4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d > div",
+      "targets": [
+        ["css=.d > div", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div[2]/div/div[2]/div/form/fieldset/div/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e693897d-3e96-4726-a226-c5044bc1a350",
+      "comment": "",
+      "command": "click",
+      "target": "css=p > input",
+      "targets": [
+        ["css=p > input", "css:finder"],
+        ["xpath=//input[@type='checkbox']", "xpath:attributes"],
+        ["xpath=//div[@id='__dialog']/div/div/div/div/div/form/div/p[6]/input", "xpath:idRelative"],
+        ["xpath=//p[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "790fee55-c3b0-403e-a53c-beecc90c75d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Re > .c",
+      "targets": [
+        ["css=.Re > .c", "css:finder"],
+        ["xpath=(//button[@type='submit'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='__dialog']/div/div/div/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Xác nhận')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c53f2340-3a99-4560-ada5-27cdd5f79710",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Ag:nth-child(2)",
+      "targets": [
+        ["css=.Ag:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[4]/a/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ce1d5e2-21aa-40fa-a6db-3702f010b7b2",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//*[@id=\"gatsby-focus-wrapper\"]/div/div[2]/div/div[1]/div[2]/div/div[2]/div/div[1]/div/div[3]/form/div/input",
+      "targets": [],
+      "value": "${qty}"
+    }, {
+      "id": "bcfc59df-3d41-4aa9-8dc9-e0b981e71351",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=h5",
+      "targets": [
+        ["css=h5", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div/div[2]/div/div[2]/div/div/div/div[2]/h5", "xpath:idRelative"],
+        ["xpath=//h5", "xpath:position"],
+        ["xpath=//h5[contains(.,'1.090.000đ')]", "xpath:innerText"]
+      ],
+      "value": "normalPrice"
+    }, {
+      "id": "2a4c38bc-45f3-4d7c-ba9b-8ebd451b5990",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.Le:nth-child(1) > .be",
+      "targets": [
+        ["css=.Le:nth-child(1) > .be", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[2]/div/form/div/div/div[3]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "finalPrice"
+    }, {
+      "id": "bf3e5bad-b9f9-4491-a2cb-6459b6ce3eba",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return Number(${normalPrice}.replace(/đ/g, '').replace(/\\./g, ''))",
+      "targets": [],
+      "value": "cvNormalPrice"
+    }, {
+      "id": "b53408fc-c29b-4e0f-bf7d-4101f1aa6ac8",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${cvNormalPrice}*${qty}",
+      "targets": [],
+      "value": "fp"
+    }, {
+      "id": "e20826df-c126-461b-a876-cc3426ba70d4",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return Number(${finalPrice}.replace(/đ/g, '').replace(/\\./g, ''))",
+      "targets": [],
+      "value": "cvFinalPrice"
+    }, {
+      "id": "8beb5a75-f524-43ad-8660-65597986b66f",
+      "comment": "",
+      "command": "verify",
+      "target": "cvFinalPrice",
+      "targets": [],
+      "value": "${fp}"
+    }, {
+      "id": "04eda9ac-2738-4ad4-b283-1bb161a582c0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8b7cad4c-0f21-493b-92a8-f511d550982b",
+    "name": "TC-30",
+    "commands": [{
+      "id": "41cb455f-f771-4c35-8bb7-73f50bfcfc00",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce059736-73bc-40d6-8c24-37a1ff8b1eee",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "880x546",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13bede7a-a4d3-4190-9b44-0693a5162c7d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.kc:nth-child(2) > div:nth-child(1)",
+      "targets": [
+        ["css=.kc:nth-child(2) > div:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cce3bbe-da32-4c1f-9f12-c398fc0b7469",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=div:nth-child(3) > .z > .g", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='__popup']/div/div/div/div/div/form/fieldset/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f7cea83-60d1-4941-8a1e-e8b161856646",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.i", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='__popup']/div/div/div/div/div/form/fieldset/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "akamineharuna@gmail.com"
+    }, {
+      "id": "f0a8dbd1-0c10-4553-856f-9a69633a7d00",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=div:nth-child(4) .g", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__popup']/div/div/div/div/div/form/fieldset/div/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08cd5b2f-eb01-465b-ad2c-2d9b4be8d0d2",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=div:nth-child(4) .g", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__popup']/div/div/div/div/div/form/fieldset/div/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "divineshop2003"
+    }, {
+      "id": "e6437c11-d659-4e2d-b3ce-4bc83c26c403",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b:nth-child(6)",
+      "targets": [
+        ["css=.b:nth-child(6)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='__popup']/div/div/div/div/div/form/fieldset/div/div/button", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "143ff1eb-5509-4cc2-af4b-96272e47b28c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Qb > .tc",
+      "targets": [
+        ["css=.Qb > .tc", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[3]/div/div/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96124784-57fe-4415-ad09-6eb3a05ca4b0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quản lý tài khoản",
+      "targets": [
+        ["linkText=Quản lý tài khoản", "linkText"],
+        ["css=.V > .ta:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Quản lý tài khoản')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[3]/div/div/div/div/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/user/profile')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quản lý tài khoản')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b97e6ba7-b6be-43f6-a31a-db288c0692af",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.if:nth-child(2) > .Wa",
+      "targets": [
+        ["css=.if:nth-child(2) > .Wa", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "akamineharuna@gmail.com"
+    }, {
+      "id": "bc9cfcc6-e386-40a4-8bb4-da28315939c6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ac4db4eb-4897-47b8-998d-052a1b2185bc",
+    "name": "TC-03",
+    "commands": [{
+      "id": "ad8a81ec-5c18-4c53-b826-7120877ae5fe",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b45c84d3-c1ef-49d6-8ea5-dca3f67399ca",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8bb0cd6-9682-4295-83ca-4ee75fade612",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55f3f12a-d3e7-4bd2-8981-5f7686b49594",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return document.querySelector(\".Hc.Nd.Ac.pe.Vc\") ? document.querySelector(\".Hc.Nd.Ac.pe.Vc\").innerText : \"0\"",
+      "targets": [],
+      "value": "count"
+    }, {
+      "id": "3b907c25-10f7-4630-81f4-474585993f94",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Ag",
+      "targets": [
+        ["css=.Ag", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[4]/a/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af97ff59-bfea-4dbc-a463-6ab29a8c7c6e",
+      "comment": "",
+      "command": "echo",
+      "target": "${count}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70eccf8b-af7c-4761-9771-4d95db138d1b",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ddb31d0-c8d9-45ea-b862-b55812c714f8",
+      "comment": "",
+      "command": "if",
+      "target": "parseInt(${count}.substring(1, ${count}.length - 1)) != 0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34693e27-1fee-4885-8957-5c8a125940ea",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath=//*[@id=\"gatsby-focus-wrapper\"]/div/div[2]/div/div[1]/div[2]",
+      "targets": [],
+      "value": "x"
+    }, {
+      "id": "6145745d-8333-4593-a49d-0bc76dce6129",
+      "comment": "",
+      "command": "echo",
+      "target": "${x}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d310a03e-503b-464c-8605-b6a3cd0842fc",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "y"
+    }, {
+      "id": "147ab605-aba8-4c50-81cf-01ddba5e6036",
+      "comment": "",
+      "command": "while",
+      "target": "${y}<=${x}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e26342a-9a33-4c2b-a7a2-03443bf55dee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.he > .rd",
+      "targets": [
+        ["css=.he > .rd", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdb35b93-b17c-4139-a2cb-67d840292789",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rd:nth-child(3)",
+      "targets": [
+        ["css=.rd:nth-child(3)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "48d9d41c-f4fc-4f03-935c-26f04103b4b2",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${y}+1",
+      "targets": [],
+      "value": "y"
+    }, {
+      "id": "0d32da8c-6a60-46b1-ab7c-8e864fa996fe",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b9bebce-0886-4be2-aa6a-ca4a097ffc5f",
+      "comment": "",
+      "command": "else",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c241261-8ea7-4fa4-9188-1c795f411110",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h4:nth-child(1)",
+      "targets": [
+        ["css=h4:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div/div/div/h4", "xpath:idRelative"],
+        ["xpath=//div/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Giỏ hàng trống!')]", "xpath:innerText"]
+      ],
+      "value": "Giỏ hàng trống!"
+    }, {
+      "id": "4a73445c-7dd0-4dd8-8e9f-7c1920d3f76e",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97ed4c39-c78d-4a21-ac5f-20ce34fa3124",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b0407e56-182a-44c3-b8a0-46f2e7adf8a2",
+    "name": "TC-07",
+    "commands": [{
+      "id": "fae58fc2-7d02-4f3b-8496-68ed206abe6b",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbbd9f06-d96c-4fb8-906d-d6e5aee9655d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de5cfbe7-1a20-49b9-9e09-ac263d3b5909",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Bg:nth-child(2) > .va:nth-child(1) > div",
+      "targets": [
+        ["css=.Bg:nth-child(2) > .va:nth-child(1) > div", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div/div/div/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65217696-727c-4b2e-ba60-613415029be4",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.g", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94046d5b-1878-48bd-b857-9f14e62a5e8b",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.border-none", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Split Fiction - Thuê game"
+    }, {
+      "id": "3732ca03-c206-4bb7-9e26-28ce14febed0",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.g", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "0fbd80be-c49b-44f5-b727-e2cbe3669e77",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Split Fiction - Thuê game (1 tuần)",
+      "targets": [
+        ["linkText=Split Fiction - Thuê game (1 tuần)", "linkText"],
+        ["css=.gf:nth-child(2) > .Ta", "css:finder"],
+        ["xpath=//a[contains(text(),'Split Fiction - Thuê game (1 tuần)')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/thue-tai-khoan-split-fiction-1-tuan')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Split Fiction - Thuê game (1 tuần)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "005a8b03-685e-4a23-8fd5-8611dfaec09d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4453a355-c10f-49f0-afb8-baa40aa68751",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .he",
+      "targets": [
+        ["css=div:nth-child(2) > .he", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div[2]/div/div/div/div/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Hết hàng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb583070-52a1-4cc4-b23f-4d19709be1f8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.Wb > .c > div",
+      "targets": [
+        ["css=.Wb > .c > div", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div[2]/div/div[2]/div/form/fieldset/div/div/button/div", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/button/div", "xpath:position"]
+      ],
+      "value": "Thông báo khi có hàng"
+    }, {
+      "id": "7c5ce0d2-7c13-4380-b9be-eeaed72facd9",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0c328227-1990-4475-9a99-5ce6b7280fc7",
+    "name": "TC-08",
+    "commands": [{
+      "id": "298de083-1cd1-4032-87fb-e77a0d859970",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0bef597-01a6-407e-9f8d-f97d6e8141c6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "880x546",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5d6c38c-16f8-4125-ac1d-106e8a915389",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.g", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0348e9d6-61ea-4fd3-ad7a-b9547fcc7331",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.g", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Oniichan no baka"
+    }, {
+      "id": "c6d0cf89-58e0-4490-901d-9176f3f56c38",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.g", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "11a449bb-23d6-4b4c-bf91-2415e6659b37",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h4:nth-child(1)",
+      "targets": [
+        ["css=h4:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/h4", "xpath:idRelative"],
+        ["xpath=//div/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Không có sản phẩm phù hợp với tìm kiếm!')]", "xpath:innerText"]
+      ],
+      "value": "Không có sản phẩm phù hợp với tìm kiếm!"
+    }, {
+      "id": "c501c658-6c78-4eb9-8130-072d7f7b8229",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "60d57e5c-4680-4252-80d8-7cfe6152209c",
+    "name": "TC-13",
+    "commands": [{
+      "id": "22989125-a170-413f-8b44-746c7511858f",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60c34e3e-939d-4fb3-9abd-46ccadc7e7fe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "880x546",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3804c3ea-285b-4722-b6b1-70c936d88ebc",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [],
+      "value": "Black Myth Wukong"
+    }, {
+      "id": "933e8390-dff9-42ad-b717-b02d3a8c1724",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "026c3aed-cd25-4d54-bba5-189058249028",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Black Myth: Wukong - Tài khoản Steam Mới",
+      "targets": [
+        ["linkText=Black Myth: Wukong - Tài khoản Steam Mới", "linkText"],
+        ["css=.gf:nth-child(1) > .Ta", "css:finder"],
+        ["xpath=//a[contains(text(),'Black Myth: Wukong - Tài khoản Steam Mới')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/tai-khoan-steam-black-myth-wukong-gia-re')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Black Myth: Wukong - Tài khoản Steam Mới')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c96e4bc4-c283-4e73-ac78-6aaaaca6519b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b:nth-child(3) > .Kb > path",
+      "targets": [
+        ["css=.b:nth-child(3) > .Kb > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "21c8e9d3-67a3-4cf0-995f-66dc2b8229ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Zc > .rd",
+      "targets": [
+        ["css=.Zc > .rd", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7280cb6a-60a5-4e56-ad54-58e7927f7b3b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Black Myth: Wukong",
+      "targets": [
+        ["linkText=Black Myth: Wukong", "linkText"],
+        ["css=.gf:nth-child(2) > .Ta", "css:finder"],
+        ["xpath=(//a[contains(text(),'Black Myth: Wukong')])[2]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/black-myth-wukong')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div/div[2]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eba8e69c-b0b7-4271-ae21-e2848caaab75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b:nth-child(3) > .Kb > path",
+      "targets": [
+        ["css=.b:nth-child(3) > .Kb > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "608de92c-b96e-46b3-bc21-e3e9b3dbd1f9",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0700694-c0e4-41cf-ab49-6691d9a5845d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Qb > .tc",
+      "targets": [
+        ["css=.Qb > .tc", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[3]/div/div/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa1fe068-a9d6-4315-aa75-5626203f9dd0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sản phẩm yêu thích",
+      "targets": [
+        ["linkText=Sản phẩm yêu thích", "linkText"],
+        ["css=.td:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Sản phẩm yêu thích')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[3]/div/div/div/div/div/div/div[2]/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/user/wishlist')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Sản phẩm yêu thích')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "702adfff-4494-497a-8c33-bd0ded299e10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Sf:nth-child(1) > .xa .rd",
+      "targets": [
+        ["css=.Sf:nth-child(1) > .xa .rd", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5313f12-9f23-4174-8bf7-d68d1ac3dad7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rd:nth-child(2)",
+      "targets": [
+        ["css=.rd:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9f17a35-3aac-4b17-bf7e-97a30c016a66",
+      "comment": "",
+      "command": "click",
+      "target": "css=.xa > .b > .rd",
+      "targets": [
+        ["css=.xa > .b > .rd", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9e24b4f-30d1-44eb-9e8f-ceebfb578c8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rd:nth-child(2)",
+      "targets": [
+        ["css=.rd:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "db075157-4999-4b8e-b173-f97ee8e34287",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed2a1563-312d-4cd4-af11-d5c29612d87e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.je",
+      "targets": [
+        ["css=.je", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "Danh sách các sản phẩm mà bạn đã đánh dấu \"yêu thích\""
+    }, {
+      "id": "c8814fd3-9513-4513-8161-91443cff1544",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "bc041dd2-d5fb-424f-bbf1-676cc68d544d",
+    "name": "TC-17",
+    "commands": [{
+      "id": "851074c3-9a1b-4830-b3cf-74078b475432",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca704b15-1399-4b9e-b162-fa5b034184fb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95cc6ce8-6e59-45f5-90de-6d2400ee30db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Qb > .tc",
+      "targets": [
+        ["css=.Qb > .tc", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[3]/div/div/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5196165-c357-493a-b843-05c4b4ffb0da",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quản lý tài khoản",
+      "targets": [
+        ["linkText=Quản lý tài khoản", "linkText"],
+        ["css=.V > .ta:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Quản lý tài khoản')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[3]/div/div/div/div/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/user/profile')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quản lý tài khoản')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5216bf63-3e19-4ef3-86fd-89a8adfbe169",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Tg",
+      "targets": [
+        ["css=.Tg", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div", "xpath:idRelative"],
+        ["xpath=//body/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75578489-8fb9-4a31-b649-85e291f6a7b9",
+      "comment": "",
+      "command": "type",
+      "target": "name=full_name",
+      "targets": [
+        ["name=full_name", "name"],
+        ["css=div:nth-child(2) > .z > .g", "css:finder"],
+        ["xpath=//input[@name='full_name']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": "LyPhuocHien"
+    }, {
+      "id": "f1dcde3e-9605-4525-9c59-f6831d0500d0",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=div:nth-child(3) > .z > .g", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "056b1520-9762-4a4c-b912-33b4fd7476a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Tg",
+      "targets": [
+        ["css=.Tg", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div", "xpath:idRelative"],
+        ["xpath=//body/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a84703d2-223d-4449-a8af-befd51f9935c",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.Tg",
+      "targets": [
+        ["css=.Tg", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div", "xpath:idRelative"],
+        ["xpath=//body/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf05ecf8-5468-4560-9c6f-6b5f4128b7df",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=div:nth-child(3) > .z > .g", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "0932717977"
+    }, {
+      "id": "f44f4fdd-3717-4dd8-a9bd-10c9b1356b84",
+      "comment": "",
+      "command": "click",
+      "target": "name=gender",
+      "targets": [
+        ["name=gender", "name"],
+        ["css=div:nth-child(5) .g", "css:finder"],
+        ["xpath=//select[@name='gender']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/fieldset/div[4]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7679413-771d-4df5-8e8a-2ea169b16768",
+      "comment": "",
+      "command": "click",
+      "target": "name=province_id",
+      "targets": [
+        ["name=province_id", "name"],
+        ["css=div:nth-child(6) .g", "css:finder"],
+        ["xpath=//select[@name='province_id']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/fieldset/div[5]/div/select", "xpath:idRelative"],
+        ["xpath=//div[5]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "255632ff-79a1-491e-bd96-b31b48216362",
+      "comment": "",
+      "command": "click",
+      "target": "name=district_id",
+      "targets": [
+        ["name=district_id", "name"],
+        ["css=div:nth-child(7) .g", "css:finder"],
+        ["xpath=//select[@name='district_id']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/fieldset/div[6]/div/select", "xpath:idRelative"],
+        ["xpath=//div[6]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b95cced6-29b1-4cd9-8d88-c87ff24fce60",
+      "comment": "",
+      "command": "click",
+      "target": "name=ward_id",
+      "targets": [
+        ["name=ward_id", "name"],
+        ["css=div:nth-child(8) .g", "css:finder"],
+        ["xpath=//select[@name='ward_id']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/fieldset/div[7]/div/select", "xpath:idRelative"],
+        ["xpath=//div[7]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1615f9fc-cf46-4c7b-b165-bf395a6ca86a",
+      "comment": "",
+      "command": "click",
+      "target": "name=street",
+      "targets": [
+        ["name=street", "name"],
+        ["css=div:nth-child(9) .g", "css:finder"],
+        ["xpath=//input[@name='street']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/fieldset/div[8]/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14857fa3-ec07-47ea-8b51-27e348e9487f",
+      "comment": "",
+      "command": "click",
+      "target": "name=street",
+      "targets": [
+        ["name=street", "name"],
+        ["css=div:nth-child(9) .g", "css:finder"],
+        ["xpath=//input[@name='street']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/fieldset/div[8]/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62dceb82-22db-4696-ac9e-e7923ae30026",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=street",
+      "targets": [
+        ["name=street", "name"],
+        ["css=div:nth-child(9) .g", "css:finder"],
+        ["xpath=//input[@name='street']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/fieldset/div[8]/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d60fbbc5-c342-405e-a311-0c25f2a7bb80",
+      "comment": "",
+      "command": "type",
+      "target": "name=street",
+      "targets": [
+        ["name=street", "name"],
+        ["css=div:nth-child(9) .g", "css:finder"],
+        ["xpath=//input[@name='street']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/fieldset/div[8]/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div/input", "xpath:position"]
+      ],
+      "value": "dsaw21"
+    }, {
+      "id": "35d94833-f22d-461a-bc3b-27726be4637e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b:nth-child(12)",
+      "targets": [
+        ["css=.b:nth-child(12)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/fieldset/button", "xpath:idRelative"],
+        ["xpath=//div[2]/form/fieldset/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu thay đổi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21a08ae5-c0c3-4b0e-9882-73f3b6a28642",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.Hc:nth-child(1) > .Ib",
+      "targets": [
+        ["css=.Hc:nth-child(1) > .Ib", "css:finder"],
+        ["xpath=//div[@id='__alerter']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]", "xpath:position"]
+      ],
+      "value": "Lưu thông tin thành công"
+    }, {
+      "id": "8ff0e1a7-72ce-4a08-a3ad-b4aa9832d9be",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "dda11127-22ec-455d-8aef-82347b8cfc9a",
+    "name": "TC-14",
+    "commands": [{
+      "id": "80f5e31d-e1bc-4dae-bf14-29fe5b0b6e1a",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9326cade-2b64-4a70-bec4-9fcd4a0ae68d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "404aac01-1023-4d5c-99f8-afe9dc8a5bc0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,189)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29767166-f872-497d-9340-6423bae29a66",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Zoom Pro ~1 tháng (28 ngày) - Gói nâng cấp",
+      "targets": [
+        ["linkText=Zoom Pro ~1 tháng (28 ngày) - Gói nâng cấp", "linkText"],
+        ["css=.a:nth-child(2) .gf:nth-child(1) > .Wa:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Zoom Pro ~1 tháng (28 ngày) - Gói nâng cấp')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div[2]/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/nang-cap-tai-khoang-zoom-1-thang')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Zoom Pro ~1 tháng (28 ngày) - Gói nâng cấp')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f39e365a-87a6-4aaf-aa4d-adf3766d3e80",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b40052bc-2c74-4c86-9272-f941987c11ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Vg > .va:nth-child(1) > div",
+      "targets": [
+        ["css=.Vg > .va:nth-child(1) > div", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "543eb071-317c-422d-ae56-f98ce1656c55",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2efc3d9-845f-4a2b-a51a-ab958ce2ae97",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Steam Wallet Code 40 HKD (~131.840 VNĐ)",
+      "targets": [
+        ["linkText=Steam Wallet Code 40 HKD (~131.840 VNĐ)", "linkText"],
+        ["css=.gf:nth-child(2) > .Ta", "css:finder"],
+        ["xpath=//a[contains(text(),'Steam Wallet Code 40 HKD (~131.840 VNĐ)')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/steam-wallet-code-40-hkd')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Steam Wallet Code 40 HKD (~131.840 VNĐ)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c280afb-47df-48fc-9a46-9f296a3a914c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Ug:nth-child(2)",
+      "targets": [
+        ["css=.Ug:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/a/h4", "xpath:idRelative"],
+        ["xpath=//h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Divine Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "08bcda2a-fa7e-4799-8e61-ec6e4fd9a6b4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,181)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9974759-4f9d-48e1-baf5-034c2140fd6a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=YouTube Premium + YouTube Music 1 năm - Gia hạn chính chủ",
+      "targets": [
+        ["linkText=YouTube Premium + YouTube Music 1 năm - Gia hạn chính chủ", "linkText"],
+        ["css=.a:nth-child(2) .gf:nth-child(3) > .Wa:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'YouTube Premium + YouTube Music 1 năm - Gia hạn chính chủ')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div[2]/div/div/div[3]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/gia-han-youtube-premium-12-thang')])[2]", "xpath:href"],
+        ["xpath=//div[3]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'YouTube Premium + YouTube Music 1 năm - Gia hạn chính chủ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "abc3c6b8-6413-4b5f-9da5-8f21ad69700a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Ug:nth-child(2)",
+      "targets": [
+        ["css=.Ug:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/a/h4", "xpath:idRelative"],
+        ["xpath=//h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Divine Shop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30256b52-b4c4-4181-8060-c9a6839c668d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Vg > .va:nth-child(1) > div",
+      "targets": [
+        ["css=.Vg > .va:nth-child(1) > div", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b8824b0-93e2-48a0-a83d-4f92977be443",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Sản phẩm bạn đã xem')]", "xpath:innerText"]
+      ],
+      "value": "Sản phẩm bạn đã xem"
+    }]
+  }, {
+    "id": "b2dedc20-6cc0-4ba5-8256-95e4802620ab",
+    "name": "TC-15",
+    "commands": [{
+      "id": "385fa9e0-27bb-47e0-b303-379a5b85af4e",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "358b93d9-7aac-4fbe-93f2-e26a971276da",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb456cd0-1db4-4fbd-9d42-2b989fb30755",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.c:nth-child(1)",
+      "targets": [
+        ["css=.c:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cart')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "785ce0fd-cd4f-4535-a8bf-7df99243a82b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.c:nth-child(1)",
+      "targets": [
+        ["css=.c:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cart')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc87af32-270d-4de5-9e7b-3e164bf247b7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Ag",
+      "targets": [
+        ["css=.Ag", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[4]/a/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82001883-4936-4a98-bc5b-925b945bc7a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Ag",
+      "targets": [
+        ["css=.Ag", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[4]/a/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "135c3950-31f8-4929-94ce-6891d8c699c1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.Ag",
+      "targets": [
+        ["css=.Ag", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[4]/a/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be32a063-5ce7-4df6-a79a-bd8663c08b37",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Pe:nth-child(2) h6",
+      "targets": [
+        ["css=.Pe:nth-child(2) h6", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[2]/div/div[2]/div/h6", "xpath:idRelative"],
+        ["xpath=//div[2]/div/h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'Bạn có mã ưu đãi?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88e2cc81-d942-454f-ba9e-291e53305ef3",
+      "comment": "",
+      "command": "click",
+      "target": "name=code",
+      "targets": [
+        ["name=code", "name"],
+        ["css=.Yb .g", "css:finder"],
+        ["xpath=//input[@name='code']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[2]/div/div[2]/form/fieldset/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d4043ce-e5b8-46c0-9ce6-a01a135ef58f",
+      "comment": "",
+      "command": "type",
+      "target": "name=code",
+      "targets": [
+        ["name=code", "name"],
+        ["css=.Yb .g", "css:finder"],
+        ["xpath=//input[@name='code']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[2]/div/div[2]/form/fieldset/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "t980qa"
+    }, {
+      "id": "3a91a60c-ce3e-4cb3-98dd-9a0ec459e18b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d",
+      "targets": [
+        ["css=.d", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[2]/div/div[2]/form/fieldset/div/div/button", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Áp dụng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ddfa82e-fa3b-4f79-a334-92e9d8d7894e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.la > div",
+      "targets": [
+        ["css=.la > div", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[2]/div/div[2]/form/fieldset/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "Mã khuyến mại không tồn tại hoặc đã hết hạn"
+    }, {
+      "id": "af389edc-00cc-487a-b1f9-541f5beaeae3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "57eaa986-a258-4431-bc86-99a01531bb86",
+    "name": "TC-18",
+    "commands": [{
+      "id": "512ece9d-a631-47fa-9d3a-5d144b46df57",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "575ab74b-02a0-435a-86f8-3ba331e463c4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "880x552",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "242aa939-e12a-4620-b264-39561aa8d408",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.c:nth-child(1)",
+      "targets": [
+        ["css=.c:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cart')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3e07eba-9764-4aa0-8161-f321509c86dd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.c:nth-child(1)",
+      "targets": [
+        ["css=.c:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cart')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10075b92-24dd-4c33-abc2-b83c8fd8d828",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.Ag",
+      "targets": [
+        ["css=.Ag", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[4]/a/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "009426fc-14c5-4950-812e-648b3ea7fba8",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.c:nth-child(1)",
+      "targets": [
+        ["css=.c:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cart')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7331c5b7-3f6b-4d0a-be8e-2cc1653d491a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.c:nth-child(1)",
+      "targets": [
+        ["css=.c:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cart')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cefe5565-7acf-4b3a-8006-e84aa3557ac1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Pe:nth-child(3) h6",
+      "targets": [
+        ["css=.Pe:nth-child(3) h6", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[2]/div/div[3]/div/h6", "xpath:idRelative"],
+        ["xpath=//div[3]/div/h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'Bạn muốn tặng cho bạn bè?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69a0bd88-e0b6-4ce3-998e-89ae1cdfe2f9",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.Yb .g", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[2]/div/div[3]/form/fieldset/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c66992ea-2189-465a-af45-ff525e75224a",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.Yb .g", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[2]/div/div[3]/form/fieldset/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "fascxzc@gmail.com"
+    }, {
+      "id": "8ea38c29-79d9-4034-a87b-9dee2649b7d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d",
+      "targets": [
+        ["css=.d", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[2]/div/div[3]/form/fieldset/div/div/button", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Áp dụng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b05b9bb-5a0a-4c8e-992f-81aa2d67b9b9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.Ib",
+      "targets": [
+        ["css=.Ib", "css:finder"],
+        ["xpath=//div[@id='__alerter']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]", "xpath:position"]
+      ],
+      "value": "Cập nhật email người nhận thành công"
+    }, {
+      "id": "c33b20b1-b63b-47f1-a49e-1ee97dac304f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "60176f71-7e32-4faf-8083-74840c1aa08a",
+    "name": "TC-09",
+    "commands": [{
+      "id": "be3449bf-7348-4aa2-80bb-22f595b03da4",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9976a8a0-1e30-4db5-9cf0-e107f3ed4734",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1454x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ae0454d-2ec2-4acc-9f65-aa06a8d064da",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.g", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "809b5301-7a28-41a7-b8e0-7a629ae62682",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Zc > .rd",
+      "targets": [
+        ["css=.Zc > .rd", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "316fd150-5776-4b83-afe9-5534034e914c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Fc",
+      "targets": [
+        ["css=.Fc", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[2]/form/div/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f6fc8d3-810c-47ce-a468-a9445012c038",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 'Steam Wallet Code 400 HKD'",
+      "targets": [],
+      "value": "search"
+    }, {
+      "id": "94f10e0f-c9b6-4dea-b065-46776f65d5ae",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [],
+      "value": " ${search}"
+    }, {
+      "id": "a6780324-2692-4a00-9f49-d6556cd19c00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Zc path",
+      "targets": [
+        ["css=.Zc path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a022a0b-cf3d-4ac9-ad60-0e4448cac4b0",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e9c8eb7-6481-416e-bc56-823a9eb3c3f5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Steam Wallet Code 400 HKD (~1.316.000 VNĐ)",
+      "targets": [
+        ["linkText=Steam Wallet Code 400 HKD (~1.316.000 VNĐ)", "linkText"],
+        ["css=.Ta", "css:finder"],
+        ["xpath=//a[contains(text(),'Steam Wallet Code 400 HKD (~1.316.000 VNĐ)')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/steam-wallet-code-400hkd')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Steam Wallet Code 400 HKD (~1.316.000 VNĐ)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e46ae218-142f-41ea-a356-1adba1588cfa",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7277fb6a-b2a2-430d-ab16-83e58020e128",
+      "comment": "",
+      "command": "//waitForElementPresent",
+      "target": "xpath=//*[@id=\"page-wrapper\"]//div/div/div[1]/div/div[2]/a[contains(text(),'${search}')] ",
+      "targets": [],
+      "value": "5000"
+    }, {
+      "id": "d63987ed-9318-481e-9c01-5bd3e09e41be",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(normalize-space(), '${search}')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a93de236-ddfc-4751-8117-ad576d011cfc",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${search}.toUpperCase().split(\" \").every(word => {     let node = document.evaluate(\"//h1\", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;     return node && node.innerText.toUpperCase().includes(word); });",
+      "targets": [],
+      "value": "check"
+    }, {
+      "id": "4c9faace-ae10-47d6-b385-de668dd5159b",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//*[contains(text(), \"${search}\")]",
+      "targets": [],
+      "value": "10000"
+    }, {
+      "id": "b707d6f3-42cd-4a0e-8f3c-6aa5b12bdbf5",
+      "comment": "",
+      "command": "verify",
+      "target": "check",
+      "targets": [],
+      "value": "true"
+    }]
+  }, {
+    "id": "db424cfb-3f68-4dbb-b24f-7b567dbc795e",
+    "name": "TC-16",
+    "commands": [{
+      "id": "0d625960-4f9e-4d24-bdb6-f91e4df767dc",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80e7ca67-eb4d-4c19-9452-201c19fc2d83",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "880x550",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "306f5b88-47ad-4b08-9172-429ec8df3929",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,435)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a432b98e-2cf4-4ed1-b313-804ecd592ddf",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1016)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8c38857-2da3-4c55-80c5-cd376f21f8ee",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Steam Wallet Code 100 TWD (~77.500 VNĐ)",
+      "targets": [
+        ["linkText=Steam Wallet Code 100 TWD (~77.500 VNĐ)", "linkText"],
+        ["css=.a:nth-child(1) .gf:nth-child(2) > .Wa:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Steam Wallet Code 100 TWD (~77.500 VNĐ)')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[4]/div/div[2]/div/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/code-steam-100twd')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/div[2]/div/div/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Steam Wallet Code 100 TWD (~77.500 VNĐ)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b04ab67-0e56-4004-9dc3-61074ab9e312",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b8cd52e-f692-4e64-8ec6-22e5c0a8c678",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b:nth-child(2) > .Kb > path",
+      "targets": [
+        ["css=.b:nth-child(2) > .Kb > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2601e30f-3900-49d3-82bd-581ed48f0ad1",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.Ib",
+      "targets": [
+        ["css=.Ib", "css:finder"],
+        ["xpath=//div[@id='__alerter']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]", "xpath:position"]
+      ],
+      "value": "Đã đăng ký nhận thông báo giảm giá"
+    }, {
+      "id": "66ecd22f-3531-4c13-b84c-db2bb63a5273",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "fb7302e5-e81c-4a8e-bfd4-533b80665fb0",
+    "name": "TC-19",
+    "commands": [{
+      "id": "838ce890-2409-4ad3-b1c9-1be17df40de0",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a499d58-31b4-4e33-bb8a-325d0dca1e25",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "880x558",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "685f7f7a-2ecc-47b9-a532-d98fe4a9a68c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Ag",
+      "targets": [
+        ["css=.Ag", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[4]/a/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab96c601-c21d-439b-826b-c3178459524e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Pe:nth-child(3) h6",
+      "targets": [
+        ["css=.Pe:nth-child(3) h6", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[2]/div/div[3]/div/h6", "xpath:idRelative"],
+        ["xpath=//div[3]/div/h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'Bạn muốn tặng cho bạn bè?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74daabae-6b06-4b4d-9c83-f9e8aa5c301d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.kc > .he",
+      "targets": [
+        ["css=.kc > .he", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[2]/div/div[3]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Xóa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "02c3954b-64d9-4e54-b09c-1e577a73f616",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1044d0f9-0c90-4f1f-8907-a78611276b61",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.Ib",
+      "targets": [
+        ["css=.Ib", "css:finder"],
+        ["xpath=//div[@id='__alerter']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]", "xpath:position"]
+      ],
+      "value": "Xóa người nhận thành công"
+    }, {
+      "id": "6263fd49-df1c-43bc-bf54-0609f98e58e2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e6e4ca69-ad68-4092-8eaf-864f835a4a6d",
+    "name": "TC-20",
+    "commands": [{
+      "id": "a9838186-8f22-4486-9c55-7e7108b970a6",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0665859-f43e-4f49-806b-4e7dc57c6cc1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Fc",
+      "targets": [
+        ["css=.Fc", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[2]/form/div/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ecee2e4-963f-4748-8128-306996bb9354",
+      "comment": "",
+      "command": "click",
+      "target": "name=sort",
+      "targets": [
+        ["name=sort", "name"],
+        ["css=.if:nth-child(4) .g", "css:finder"],
+        ["xpath=//select[@name='sort']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/form/div/div/div/div[4]/div/select", "xpath:idRelative"],
+        ["xpath=//div[4]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e34671e-9352-43cc-b9e3-53991e8553b2",
+      "comment": "",
+      "command": "select",
+      "target": "name=sort",
+      "targets": [],
+      "value": "label=Giá thấp đến cao"
+    }, {
+      "id": "6bb1e5b4-a24f-4a7c-b19c-f0f09b31f290",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fb > div",
+      "targets": [
+        ["css=.fb > div", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/form/div/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4683fb65-8812-4fdc-a50c-64e7b2d5c7b7",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 0",
+      "targets": [],
+      "value": "index"
+    }, {
+      "id": "36c607c8-630a-4f86-a9dd-09885292ffef",
+      "comment": "",
+      "command": "while",
+      "target": "${index} < 5",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d6f6120-30b5-404f-92cb-ad373a5e0ef7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.gf:nth-child(1) .Yb",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc01787a-786e-4f38-a699-80b7b4774fc5",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.gf:nth-child(7) .be",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50f3cedb-2a48-42e9-8747-103b223e07e4",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.gf:nth-child(1) .Yb",
+      "targets": [
+        ["css=.gf:nth-child(1) .Yb", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "price1"
+    }, {
+      "id": "8e1a8242-e08c-4d75-b06a-81e06c985fec",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.gf:nth-child(7) .be",
+      "targets": [
+        ["css=.gf:nth-child(7) .be", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div[7]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div", "xpath:position"]
+      ],
+      "value": "price2"
+    }, {
+      "id": "a71b9303-da76-4e13-9bdc-a4134e606f20",
+      "comment": "",
+      "command": "if",
+      "target": "${price1} > ${price2}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c091386a-f232-4dcc-8d02-8ce2c67b7873",
+      "comment": "",
+      "command": "echo",
+      "target": "LỖI: Sản phẩm không được sắp xếp đúng!",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eddf797d-5f02-43a3-b9c3-802ed4811af8",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d07348c-9a58-4826-9d04-f4aeb070ea36",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return Number(${index}) + 1",
+      "targets": [],
+      "value": "newIndex"
+    }, {
+      "id": "cbf9f2ca-b99a-4a34-901c-abbdfaabbde8",
+      "comment": "",
+      "command": "store",
+      "target": "${newIndex}",
+      "targets": [],
+      "value": "index"
+    }, {
+      "id": "1eefa389-bd46-4424-90f1-b093ed734ed0",
+      "comment": "",
+      "command": "echo",
+      "target": "${index}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef24d3e7-9af3-4de2-8a23-070c8bb52c64",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91e0f26c-d764-4eea-8199-b185890e7f17",
+      "comment": "",
+      "command": "echo",
+      "target": "${index}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "891a48a0-52d0-4942-8a4a-ce9d64150baf",
+      "comment": "",
+      "command": "echo",
+      "target": "${newIndex}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d6dde3b-902d-4226-91fe-e2fa99b48e87",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${index};",
+      "targets": [],
+      "value": "finalIndex"
+    }, {
+      "id": "69cfe0f6-ea94-49fe-9f3b-b3166c0ef2df",
+      "comment": "",
+      "command": "echo",
+      "target": "${finalIndex}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7124fbc1-1415-4690-a807-73242b09cab0",
+      "comment": "",
+      "command": "verify",
+      "target": "index",
+      "targets": [],
+      "value": "${finalIndex}"
+    }, {
+      "id": "48a71ecd-0292-42a2-962d-4a50662b312d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a4c52ae7-458f-4419-81eb-f024aac6cddc",
+    "name": "TC-10",
+    "commands": [{
+      "id": "3dc85d56-358b-4038-aa3c-04e65b5e1238",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca691f9d-34a5-496a-a0e7-eeccf1cea1d1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "880x558",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35a3fec6-5e7f-4c65-8586-5dd3d2bc6d8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Vg > .va:nth-child(3) > div",
+      "targets": [
+        ["css=.Vg > .va:nth-child(3) > div", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div[2]/a[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/a[3]/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4591",
+      "windowTimeout": 2000
+    }, {
+      "id": "2883637f-b624-4b67-ada2-3390c27a24e3",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1;",
+      "targets": [],
+      "value": "index"
+    }, {
+      "id": "428498dc-90b0-4549-a877-4e12fc3500d6",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.scrollTo(0, document.body.scrollHeight);",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8439afa7-8d4f-46f3-9482-513cb5cb415c",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c22793e9-58ee-4759-8985-ecaf14e7ac77",
+      "comment": "",
+      "command": "executeScript",
+      "target": "var products = document.querySelectorAll(\".va.hc.We > div\"); var count = products.length > 0 ? products.length : 1; console.log(\"Số sản phẩm:\", count); return count || 1;",
+      "targets": [],
+      "value": "totalProducts"
+    }, {
+      "id": "9bc6b413-56cf-4f6d-8db9-dbcb7304e79d",
+      "comment": "",
+      "command": "echo",
+      "target": "Tổng số sản phẩm: ${totalProducts}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34c7d6c3-6589-454d-99f6-6271da735512",
+      "comment": "",
+      "command": "while",
+      "target": "Number(${index}) <= Number(${totalProducts})",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94f7f503-cc4c-4ee7-9371-a2887427dff7",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.gf:nth-child(2) > .Ta",
+      "targets": [
+        ["linkText=HITMAN World of Assassination - Tài khoản Steam Offline", "linkText"],
+        ["css=.gf:nth-child(2) > .Ta", "css:finder"],
+        ["xpath=//a[contains(text(),'HITMAN World of Assassination - Tài khoản Steam Offline')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/hitman-world-of-assassination-steam-account-offline')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'HITMAN World of Assassination - Tài khoản Steam Offline')]", "xpath:innerText"]
+      ],
+      "value": "productName"
+    }, {
+      "id": "2797468d-8a1b-4d9f-ae1d-5f4b411c199b",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.gf:nth-child(2) .me",
+      "targets": [
+        ["css=.gf:nth-child(2) .me", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div[2]/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "oldPrice"
+    }, {
+      "id": "03881d36-40b5-4dce-b5c6-1e43a7262f5b",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.gf:nth-child(2) .Yb > div > .be",
+      "targets": [
+        ["css=.gf:nth-child(2) .Yb > div > .be", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div[2]/div/div/div[3]/small", "xpath:idRelative"],
+        ["xpath=//small", "xpath:position"],
+        ["xpath=//small[contains(.,'-90%')]", "xpath:innerText"]
+      ],
+      "value": "discountPercent"
+    }, {
+      "id": "14c8080b-f115-4291-b39a-e075da907401",
+      "comment": "",
+      "command": "if",
+      "target": "${totalProducts} == '' || ${totalProducts} == 'null' || Number(${totalProducts}) == 0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9a343ef-9b8f-4ee8-a66b-827c15368fce",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5ae90ea-ca81-4226-b160-a70fe3a4d10c",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return Number(${index}) + 1",
+      "targets": [],
+      "value": "index"
+    }, {
+      "id": "bd451f29-5d4b-4a6d-a82f-07ba43505f9f",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b707ab1c-897e-4173-ac23-ad8579f442a9",
+      "comment": "",
+      "command": "echo",
+      "target": "Tổng số sản phẩm: ${totalProducts}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af8e92d8-4c99-449c-88e0-69d35fafbef9",
+      "comment": "",
+      "command": "verify",
+      "target": "totalProducts",
+      "targets": [],
+      "value": "${totalProducts}"
+    }, {
+      "id": "b6f5a581-9ab5-4fdb-ae19-a613a85b93c0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "dfbade0b-fe25-4a59-aa29-04e23214ab56",
+    "name": "TC-11",
+    "commands": [{
+      "id": "098da84c-ad2f-4631-8244-5a32c2fd44f8",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c7968cb-13bb-415c-88b6-68c920df0855",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1661)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "403726b5-2b57-4b1b-9b45-50c3255f523b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2250)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbc7ca59-9dc8-4c83-8d65-b224c2bf091e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ff:nth-child(1) > .Hc > .va",
+      "targets": [
+        ["css=.ff:nth-child(1) > .Hc > .va", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[6]/div/div/h6/a/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/h6/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc4e9ad3-6343-4d59-b2aa-0385bb0923f6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47999258-8623-4076-af35-3bfc07f11782",
+      "comment": "",
+      "command": "storeXpathCount",
+      "target": "xpath= //*[@id=\"gatsby-focus-wrapper\"]/div/div",
+      "targets": [],
+      "value": "productCount"
+    }, {
+      "id": "ed5be048-d040-4278-9763-31baf766e88c",
+      "comment": "",
+      "command": "while",
+      "target": "${productCount} > 0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ddca82dc-c3c1-40fe-a2a9-64ce76bd2312",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath= //*[@id=\"gatsby-focus-wrapper\"]/div/div/div[1]/div[2]/div/div/div",
+      "targets": [],
+      "value": "5000"
+    }, {
+      "id": "9b90777c-6763-4c7b-8ee1-efc835d2238a",
+      "comment": "",
+      "command": "storeText",
+      "target": "xpath= //*[@id=\"gatsby-focus-wrapper\"]/div/div/div[1]/div[2]/div/div/div",
+      "targets": [],
+      "value": "productPrice"
+    }, {
+      "id": "be834796-c287-4921-847e-e1733d990b01",
+      "comment": "",
+      "command": "echo",
+      "target": "Giá sản phẩm: ${productPrice}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb5ee0be-7c8b-41c9-a713-d2bf7ae3a4a3",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return arguments[0] ? arguments[0] : \"0\";",
+      "targets": [],
+      "value": "productCount"
+    }, {
+      "id": "f42a04f3-e9a6-4acf-b516-815ecb1a0565",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83cd145c-c333-44f2-8dc6-11a8aaf75ae7",
+      "comment": "",
+      "command": "if",
+      "target": "${productPrice} < 20000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6da10d9c-4239-4e89-ae70-e9ec7758de05",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02d78a73-bf0b-4570-a6e4-65d901f1edec",
+      "comment": "",
+      "command": "verify",
+      "target": "productPrice",
+      "targets": [],
+      "value": "${productPrice}"
+    }, {
+      "id": "384769db-bcba-498e-a445-6aefad5df829",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "56be4bf1-698f-47cc-acea-a0decaa3b1f6",
+    "name": "TC-23",
+    "commands": [{
+      "id": "572ab1fb-fdcd-4f8f-a1dd-83fe9aeb3545",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20a17c36-ac60-4ec3-8574-f19434808568",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "880x558",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f42a7efa-ddcc-4074-a42f-165591ba98cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Ag",
+      "targets": [
+        ["css=.Ag", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[4]/a/div", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82646934-b2c7-4c26-905b-f72afb406292",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Pe:nth-child(1) h6",
+      "targets": [
+        ["css=.Pe:nth-child(1) h6", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[2]/div/div/div/h6", "xpath:idRelative"],
+        ["xpath=//h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'Bạn có mã giới thiệu?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a319de2-dda7-4dd9-9f1e-532c27956e9e",
+      "comment": "",
+      "command": "click",
+      "target": "name=affiliate_code",
+      "targets": [
+        ["name=affiliate_code", "name"],
+        ["css=.Yb .g", "css:finder"],
+        ["xpath=//input[@name='affiliate_code']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[2]/div/div/form/fieldset/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28b863e3-85b3-4b4f-b920-c279f867d458",
+      "comment": "",
+      "command": "type",
+      "target": "name=affiliate_code",
+      "targets": [
+        ["name=affiliate_code", "name"],
+        ["css=.Yb .g", "css:finder"],
+        ["xpath=//input[@name='affiliate_code']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[2]/div/div/form/fieldset/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "divine2025"
+    }, {
+      "id": "18205786-49f6-423e-b9d0-53c6f6a1c8d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d",
+      "targets": [
+        ["css=.d", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[2]/div/div/form/fieldset/div/div/button", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Áp dụng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "03ceeee2-9ace-464b-aa85-d4c868ae4fa8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.la > div",
+      "targets": [
+        ["css=.la > div", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[2]/div/div/form/fieldset/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "Mã giới thiệu không tồn tại"
+    }, {
+      "id": "34000404-4569-459f-b5b8-3b3b541f443d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2a29a976-0ad8-43c3-aa0f-5b77b10d96b5",
+    "name": "TC-12",
+    "commands": [{
+      "id": "d9264e71-3b95-4752-a28e-57e4a08d3b40",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1cb00596-b0c7-486d-a0b0-b7095635aa36",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "880x558",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25497863-f84b-4b72-af4e-5ce88ad2dbc7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Zc > .rd",
+      "targets": [
+        ["css=.Zc > .rd", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9775a47e-be20-4ae2-8fba-c37c1b46cdce",
+      "comment": "",
+      "command": "click",
+      "target": "name=category_id",
+      "targets": [
+        ["name=category_id", "name"],
+        ["css=.Lg .g", "css:finder"],
+        ["xpath=//select[@name='category_id']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/form/div/div/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee06af3a-5c72-44c4-a5a5-c6aca05a3327",
+      "comment": "",
+      "command": "select",
+      "target": "name=category_id",
+      "targets": [],
+      "value": "label=Adobe"
+    }, {
+      "id": "4af8378a-ec2d-4802-aa3d-4ac053e5ae73",
+      "comment": "",
+      "command": "click",
+      "target": "name=tag",
+      "targets": [
+        ["name=tag", "name"],
+        ["css=.if:nth-child(2) .g", "css:finder"],
+        ["xpath=//select[@name='tag']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/form/div/div/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70c5c5eb-f921-49d1-a3e3-f8b100a1ef1e",
+      "comment": "",
+      "command": "select",
+      "target": "name=tag",
+      "targets": [],
+      "value": "label=acc"
+    }, {
+      "id": "f7c87f3a-3013-42b7-b2f4-b64630b3e003",
+      "comment": "",
+      "command": "click",
+      "target": "name=sort",
+      "targets": [
+        ["name=sort", "name"],
+        ["css=.if:nth-child(4) .g", "css:finder"],
+        ["xpath=//select[@name='sort']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/form/div/div/div/div[4]/div/select", "xpath:idRelative"],
+        ["xpath=//div[4]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ba20a84-b6cf-4b28-b82e-903ec19a8bbc",
+      "comment": "",
+      "command": "select",
+      "target": "name=sort",
+      "targets": [],
+      "value": "label=Mới cập nhật"
+    }, {
+      "id": "32992f0e-1ce5-4b67-ada2-bf15bd53d580",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fb > div",
+      "targets": [
+        ["css=.fb > div", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/form/div/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9bd134e-17a1-4992-8e9c-c3f2dce61e12",
+      "comment": "",
+      "command": "click",
+      "target": "css=.he > div",
+      "targets": [
+        ["css=.he > div", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/form/div/a/div", "xpath:idRelative"],
+        ["xpath=//form/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09e188a0-bf1c-4aff-b936-f40c39eb89e5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.he > div",
+      "targets": [
+        ["css=.he > div", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/form/div/a/div", "xpath:idRelative"],
+        ["xpath=//form/div/a/div", "xpath:position"]
+      ],
+      "value": "Khôi phục bộ lọc"
+    }, {
+      "id": "3073411a-3f77-43ad-a9af-8d6a6efa1c62",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "28701cd6-7286-4485-a431-04cf5214ae24",
+    "name": "TC-22",
+    "commands": [{
+      "id": "7ce3489c-7353-41bc-9947-681467198659",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8f353ef-d3e8-49a8-8193-618483eaffd8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "880x558",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca866cda-551f-46a4-b59b-b1e2cfaa6ee0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,425)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff9e8edf-a93b-4eef-87ac-09358740882a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1008)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aafceb5b-6495-4689-955a-df0c5788f817",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1641)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8633bcba-106e-4004-b8e2-ff14e4bb1228",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Split Fiction - Thuê game (1 ngày)",
+      "targets": [
+        ["linkText=Split Fiction - Thuê game (1 ngày)", "linkText"],
+        ["css=.if:nth-child(1) .\\_d", "css:finder"],
+        ["xpath=//a[contains(text(),'Split Fiction - Thuê game (1 ngày)')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[5]/div[2]/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/thue-tai-khoan-split-fiction-1-ngay')])[2]", "xpath:href"],
+        ["xpath=//div[5]/div[2]/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Split Fiction - Thuê game (1 ngày)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "099920cc-0951-4700-81bf-f5972f8a3753",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Wb > .c > div",
+      "targets": [
+        ["css=.Wb > .c > div", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div[2]/div/div[2]/div/form/fieldset/div/div/button/div", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a19f24e5-48be-4582-b747-9e130204fa6f",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1959dd15-4463-4225-af35-352c5fdadd44",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.Ib",
+      "targets": [
+        ["css=.Ib", "css:finder"],
+        ["xpath=//div[@id='__alerter']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]", "xpath:position"]
+      ],
+      "value": "Đã đăng ký nhận thông báo khi có hàng"
+    }, {
+      "id": "50d7c066-be76-4d68-a50a-3a8eae30b6e8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a15df9c4-2dca-4568-84d6-39a0e8537033",
+    "name": "TC-21",
+    "commands": [{
+      "id": "4f862f49-f37d-474f-a9bf-590aa50a0037",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ead818ad-d6b7-4a4a-a9d2-f38ba9abeb4b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "880x558",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09bb8674-baf9-4af7-b55c-a585e58d20cb",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.g", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f80cceb-6208-48b3-af9f-70417d3be2d3",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.g", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Steam Wallet Code 400 HKD"
+    }, {
+      "id": "be6a7163-56d8-443a-b056-79caa858e2c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Zc > .rd",
+      "targets": [
+        ["css=.Zc > .rd", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "06113535-66a1-409f-a8c2-17b8c2eee5f5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Steam Wallet Code 400 HKD (~1.316.000 VNĐ)",
+      "targets": [
+        ["linkText=Steam Wallet Code 400 HKD (~1.316.000 VNĐ)", "linkText"],
+        ["css=.Ta", "css:finder"],
+        ["xpath=//a[contains(text(),'Steam Wallet Code 400 HKD (~1.316.000 VNĐ)')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/steam-wallet-code-400hkd')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Steam Wallet Code 400 HKD (~1.316.000 VNĐ)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b1e48f7-93bc-471a-b73d-5910129f30c0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1db62e21-5d3c-4ed4-b84a-67a9aabb47e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_",
+      "targets": [
+        ["css=.\\_", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Xem thêm ảnh')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46b5dc2c-9836-4a07-aca2-20ebf091fd4c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.le",
+      "targets": [
+        ["css=.le", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Sản phẩm chỉ có một ảnh"
+    }, {
+      "id": "0e54b413-5e2c-4c67-aa5a-911b4982696c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1e6f6fc9-d9c1-430f-b16a-a72f1fd81901",
+    "name": "TC-28",
+    "commands": [{
+      "id": "70d82c54-fb6a-4f92-8624-c83eb0ed1ee6",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09a4d94c-edd6-44bc-aeb8-0315b031bd30",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "880x558",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73cfc3f8-e790-4169-848c-5a50e196edac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gd",
+      "targets": [
+        ["css=.gd", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'hienlolo001')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7292b9d6-51d3-4d76-8cef-7e44718ceb4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.yd > .rd",
+      "targets": [
+        ["css=.yd > .rd", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5cbd921-f93e-4c61-b6e4-6549481775ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(6) .Xa",
+      "targets": [
+        ["css=div:nth-child(6) .Xa", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div[2]/div/div[6]/div/div/div/div/h6", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div/h6", "xpath:position"],
+        ["xpath=//h6[contains(.,'Nạp số dư trực tiếp bằng Momo Payment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3bf0e64-19f3-4e41-ad2d-5cc407ca3842",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Qb .g",
+      "targets": [
+        ["css=.Qb .g", "css:finder"],
+        ["xpath=(//input[@value=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div[2]/div/div[6]/div/div[3]/form/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8103de01-2cae-40d6-bcc0-e644da779e02",
+      "comment": "",
+      "command": "type",
+      "target": "css=.Qb .g",
+      "targets": [
+        ["css=.Qb .g", "css:finder"],
+        ["xpath=//input[@value='10.000']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div[2]/div/div[6]/div/div[3]/form/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "10.000"
+    }, {
+      "id": "1c730a07-642e-47ec-b749-cd7e36ca1975",
+      "comment": "",
+      "command": "click",
+      "target": "css=.zc:nth-child(2)",
+      "targets": [
+        ["css=.zc:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div/div[2]/div/div[6]/div/div[3]/form/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Nạp Dcoin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2afc5080-e0bb-4f59-b5c3-493114f61625",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Wc",
+      "targets": [
+        ["css=.Wc", "css:finder"],
+        ["xpath=//div[@id='__popup']/div/div/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90416481-e57b-47b9-a813-6b02a8ea2a90",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.Ib",
+      "targets": [
+        ["css=.Ib", "css:finder"],
+        ["xpath=//div[@id='__alerter']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]", "xpath:position"]
+      ],
+      "value": "Giao dịch không thành công (╯︵╰,)"
+    }, {
+      "id": "ffbac81a-939b-485d-a947-c0861755b09b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "39e98ef5-09aa-4bac-a9a4-b4030be8ef9f",
+    "name": "TC-29",
+    "commands": [{
+      "id": "adf06201-5c58-4d1d-895b-eb5d565860c9",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "637eb895-2d59-4797-b0d6-278dbacb83d1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "880x558",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c764c27f-159f-446b-ac05-a0d55993f68a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Qb > .tc",
+      "targets": [
+        ["css=.Qb > .tc", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[3]/div/div/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3779176a-dc8e-450f-a5b2-d43812e0c562",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fb > .fb",
+      "targets": [
+        ["css=.fb > .fb", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[3]/div/div/div/div/div/div/div[2]/div/form/button/div", "xpath:idRelative"],
+        ["xpath=//form/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49c817e2-50b0-44b5-afe3-74e483ea9c1f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.Ib",
+      "targets": [
+        ["css=.Ib", "css:finder"],
+        ["xpath=//div[@id='__alerter']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]", "xpath:position"]
+      ],
+      "value": "Đăng xuất thành công"
+    }, {
+      "id": "6c23d737-0629-4ae3-9d46-f3c28463721f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b4dc6325-ca9e-4935-bb0c-094705905dd9",
+    "name": "TC-24",
+    "commands": [{
+      "id": "4e2378ce-c256-484c-b9c8-dcdcf534cf32",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f4ceaab-f8e2-45bc-ba53-cf64c1980b50",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "880x558",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "705b3c25-d499-4f64-b1e3-864d1e0212fd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1667)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c93eea1-f78c-410f-8315-59c9a80f1a22",
+      "comment": "",
+      "command": "click",
+      "target": "css=.a:nth-child(1) > .Je .b",
+      "targets": [
+        ["css=.a:nth-child(1) > .Je .b", "css:finder"],
+        ["xpath=(//a[contains(text(),'Khám phá')])[2]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[4]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/search/trending')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40d1c2e9-d3fd-4db4-b699-33a0fa712c75",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f12b4b7c-fb08-4d3f-a6bd-bb30355e2f4c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Sản phẩm bán chạy nhất')]", "xpath:innerText"]
+      ],
+      "value": "Sản phẩm bán chạy nhất"
+    }, {
+      "id": "d75655e4-2161-4a82-a722-ba190a2d1db7",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e5288975-3330-4a48-a579-1bd43a8ccd91",
+    "name": "TC-25",
+    "commands": [{
+      "id": "944126c6-1d8a-4065-8274-4e7a36918311",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8bb776e-45df-4af9-abbd-a61bc8f8044a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "880x558",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc843f7b-d34e-4033-80b7-2b84c99512f3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2259)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7dd36096-cb39-44b7-b1ed-743df1072b8a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3769)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00c1602e-895e-4583-b317-058bca09f7c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.a:nth-child(12) > .Je .b",
+      "targets": [
+        ["css=.a:nth-child(12) > .Je .b", "css:finder"],
+        ["xpath=(//a[contains(text(),'Khám phá')])[9]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[12]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/search/new')])[2]", "xpath:href"],
+        ["xpath=//div[12]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f35f4f2-8d3d-4644-a31c-ea23f75b08fe",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Sản phẩm mới')]", "xpath:innerText"]
+      ],
+      "value": "Sản phẩm mới"
+    }, {
+      "id": "59455bc0-90e2-4e99-a633-bdf7ed5e6d7f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "030ca202-9ede-4239-a195-efd3117d94cc",
+    "name": "TC-27",
+    "commands": [{
+      "id": "64d902c2-2ed0-47c9-a5a3-c545567de5e5",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea74709b-b74e-486f-bb43-d89884e88d08",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f40983ef-6829-4e61-bb4c-65bb376e3ef0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.c:nth-child(1)",
+      "targets": [
+        ["css=.c:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cart')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88531a3c-6a5f-436d-94c3-dcc2a629304c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gd",
+      "targets": [
+        ["css=.gd", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'hienlolo001')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "014834d6-59f3-48ab-8703-b2531a969db8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quản lý tài khoản",
+      "targets": [
+        ["linkText=Quản lý tài khoản", "linkText"],
+        ["css=.V > .ta:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Quản lý tài khoản')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[3]/div/div/div/div/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/user/profile')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quản lý tài khoản')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0f55176-7554-4a03-84ec-a3ad7828bd06",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quản lý địa chỉ mua hàng",
+      "targets": [
+        ["linkText=Quản lý địa chỉ mua hàng", "linkText"],
+        ["css=.mc", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/fieldset/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/user/address')]", "xpath:href"],
+        ["xpath=//fieldset/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quản lý địa chỉ mua hàng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6db77a88-9eb7-4987-be6a-0a1256336fb6",
+      "comment": "",
+      "command": "click",
+      "target": "css=fieldset:nth-child(1) .b:nth-child(2) path",
+      "targets": [
+        ["css=fieldset:nth-child(1) .b:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6935ba9-b77e-4191-be5b-a49434fc36c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.he > .rd:nth-child(2) > path",
+      "targets": [
+        ["css=.he > .rd:nth-child(2) > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "959bfe85-0a89-4449-b193-3e5eef185d9f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.Se > .je",
+      "targets": [
+        ["css=.Se > .je", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[3]/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "Bạn không có địa chỉ phụ."
+    }, {
+      "id": "2b23c1e8-e971-41cb-a30a-5ba95fba2ea2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9e86f525-ea8b-4c37-b8f0-8a9a4aeb7244",
+    "name": "TC-26",
+    "commands": [{
+      "id": "a4ef2b19-0f93-4ae6-9073-7d85e585dbb3",
+      "comment": "",
+      "command": "open",
+      "target": "https://divineshop.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b696eb1c-2b0f-4f7f-80bc-35ce6e199d25",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "880x558",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0cdbc4b4-6075-4f88-a799-d75fb1604a06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Qb > .tc",
+      "targets": [
+        ["css=.Qb > .tc", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[3]/div/div/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bc63984-7d05-4e8d-8d47-27fb87e229da",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quản lý tài khoản",
+      "targets": [
+        ["linkText=Quản lý tài khoản", "linkText"],
+        ["css=.V > .ta:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Quản lý tài khoản')]", "xpath:link"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/header/div[2]/div/div/div[3]/div/div/div/div/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/user/profile')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quản lý tài khoản')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8fcf2f9-06c1-468e-b105-4ea70f932bf3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mc > div",
+      "targets": [
+        ["css=.mc > div", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/form/fieldset/a/div", "xpath:idRelative"],
+        ["xpath=//fieldset/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20e69036-95b2-4eb4-abf9-f410cf936b65",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ke > div",
+      "targets": [
+        ["css=.ke > div", "css:finder"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[3]/div[2]/div/button/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52459b9c-e198-4363-ad2d-75a4adfbcfea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ke:nth-child(2)",
+      "targets": [
+        ["css=.ke:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[3]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm địa chỉ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da954cbd-8efe-4094-b56f-c9538fd649a7",
+      "comment": "",
+      "command": "click",
+      "target": "name=full_name",
+      "targets": [
+        ["name=full_name", "name"],
+        ["css=div:nth-child(1) > .z > .h", "css:finder"],
+        ["xpath=//input[@name='full_name']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[3]/div[2]/div[2]/div/div/fieldset/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c9ba03f-3480-4305-a23b-6936ea297c51",
+      "comment": "",
+      "command": "type",
+      "target": "name=full_name",
+      "targets": [
+        ["name=full_name", "name"],
+        ["css=div:nth-child(1) > .z > .h", "css:finder"],
+        ["xpath=//input[@name='full_name']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[3]/div[2]/div[2]/div/div/fieldset/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": "LyPhuocHien"
+    }, {
+      "id": "3bcfb436-279d-4a2c-b006-b5002a9e4a2f",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=div:nth-child(2) > .z > .g", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[3]/div[2]/div[2]/div/div/fieldset/form/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf52f7d7-cbeb-4bfe-8e8e-4fa0bf4fcc6b",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=div:nth-child(2) > .z > .g", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[3]/div[2]/div[2]/div/div/fieldset/form/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "0832168051"
+    }, {
+      "id": "0a009d8c-e6f4-437c-a065-ba8ca6a93ec2",
+      "comment": "",
+      "command": "click",
+      "target": "name=province_id",
+      "targets": [
+        ["name=province_id", "name"],
+        ["css=div:nth-child(3) > .z > .g", "css:finder"],
+        ["xpath=//select[@name='province_id']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[3]/div[2]/div[2]/div/div/fieldset/form/fieldset/div[3]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8e0ee31-5cd2-4d84-ab7c-eacaef65bb13",
+      "comment": "",
+      "command": "select",
+      "target": "name=province_id",
+      "targets": [],
+      "value": "label=Thành phố Hồ Chí Minh"
+    }, {
+      "id": "450d62dc-fc6b-418d-9b62-8aa7ceabaa64",
+      "comment": "",
+      "command": "click",
+      "target": "name=district_id",
+      "targets": [
+        ["name=district_id", "name"],
+        ["css=div:nth-child(4) .g", "css:finder"],
+        ["xpath=//select[@name='district_id']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[3]/div[2]/div[2]/div/div/fieldset/form/fieldset/div[4]/div/select", "xpath:idRelative"],
+        ["xpath=//div[4]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a0c328a-5d38-4339-a220-333c38e82b50",
+      "comment": "",
+      "command": "select",
+      "target": "name=district_id",
+      "targets": [],
+      "value": "label=Quận 9"
+    }, {
+      "id": "dde3e84d-7518-4064-9d3f-c523774d389c",
+      "comment": "",
+      "command": "click",
+      "target": "name=ward_id",
+      "targets": [
+        ["name=ward_id", "name"],
+        ["css=div:nth-child(5) .g", "css:finder"],
+        ["xpath=//select[@name='ward_id']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[3]/div[2]/div[2]/div/div/fieldset/form/fieldset/div[5]/div/select", "xpath:idRelative"],
+        ["xpath=//div[5]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be70fc26-6b48-422a-a442-660170825e82",
+      "comment": "",
+      "command": "select",
+      "target": "name=ward_id",
+      "targets": [],
+      "value": "label=Phường Long Phước"
+    }, {
+      "id": "1f323ee1-96d7-4667-8f65-b17beda3bbae",
+      "comment": "",
+      "command": "click",
+      "target": "name=street",
+      "targets": [
+        ["name=street", "name"],
+        ["css=div:nth-child(6) .g", "css:finder"],
+        ["xpath=//input[@name='street']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[3]/div[2]/div[2]/div/div/fieldset/form/fieldset/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "861b9472-b02f-47df-a3e4-53afb0710e5c",
+      "comment": "",
+      "command": "type",
+      "target": "name=street",
+      "targets": [
+        ["name=street", "name"],
+        ["css=div:nth-child(6) .g", "css:finder"],
+        ["xpath=//input[@name='street']", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[3]/div[2]/div[2]/div/div/fieldset/form/fieldset/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": "321gds"
+    }, {
+      "id": "fb8735de-4931-4c45-80b9-157fdf60e27c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Re > .c",
+      "targets": [
+        ["css=.Re > .c", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='gatsby-focus-wrapper']/div/div[2]/div/div[3]/div[2]/div[2]/div/div/fieldset/form/fieldset/div[7]/button", "xpath:idRelative"],
+        ["xpath=//div[7]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Lưu địa chỉ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "643d3e7e-2f6d-4505-af01-879b4e07c892",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f017f94-6870-47d1-a5b6-8672591637e8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.Ib",
+      "targets": [
+        ["css=.Ib", "css:finder"],
+        ["xpath=//div[@id='__alerter']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]", "xpath:position"]
+      ],
+      "value": "Lưu địa chỉ thành công"
+    }, {
+      "id": "fa7b57ab-1b93-4c88-b744-4721015e6f80",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5119284f-5152-42fc-ba71-1bde9392c457",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["34952315-de08-4b46-a254-262121402400"]
+  }],
+  "urls": ["https://divineshop.vn/", "https://www.nshop.com.vn/", "https://grimmdc.com/"],
+  "plugins": []
+}
